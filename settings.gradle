@@ -1,0 +1,3 @@
+rootProject.name='animated Bottom NavigationBar'
+include ':app'
+include ':animatedbottomnavigationbar'

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CellImageView">
+        <attr name="civ_imageview_useColor" format="boolean" />
+        <attr name="civ_imageview_isBitmap" format="boolean" />
+        <attr name="civ_imageview_resource" format="reference" />
+        <attr name="civ_imageview_color" format="color" />
+        <attr name="civ_imageview_size" format="dimension" />
+        <attr name="civ_imageview_isAction" format="boolean" />
+        <attr name="civ_imageview_actionBackgroundAlpha" format="boolean" />
+        <attr name="civ_imageview_changeSize" format="boolean" />
+        <attr name="civ_imageview_fitImage" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ABottomNavigation">
+        <attr name="abn_heightCell" format="dimension" />
+        <attr name="abn_defaultIconColor" format="color" />
+        <attr name="abn_selectedIconColor" format="color" />
+        <attr name="abn_backgroundBottomColor" format="color" />
+        <attr name="abn_selectedItemBackgroundColor" format="color" />
+        <attr name="abn_countTextColor" format="color" />
+        <attr name="abn_titleTextColor" format="color" />
+        <attr name="abn_countBackgroundColor" format="color" />
+        <attr name="abn_countTypeface" format="string" />
+        <attr name="abn_rippleColor" format="color" />
+        <attr name="abn_shadowColor" format="color" />
+    </declare-styleable>
+
+</resources>
