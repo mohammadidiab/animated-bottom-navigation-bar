@@ -25,7 +25,7 @@ implementation 'com.github.mohammadidiab:animated-bottom-navigation-bar:0.0.1'
 ## How to use
 
 ```
-<com.md.animatedbottomnavigationbarlib.ABottomNavigation
+                    <com.md.animatedbottomnavigationbarlib.ABottomNavigation
                     android:id="@+id/bottomNavigation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -40,5 +40,21 @@ implementation 'com.github.mohammadidiab:animated-bottom-navigation-bar:0.0.1'
                     app:abn_defaultIconColor="#8890A6"
                     app:abn_selectedIconColor="#ffffff"
                     app:abn_shadowColor="#8890A6" />
+
+
+        bottomNavigation.add(ABottomNavigation.Model(1, R.drawable.ic_home, "HOME"))
+        bottomNavigation.add(ABottomNavigation.Model(2, R.drawable.ic_explore, "EXPLORE"))
+        bottomNavigation.add(ABottomNavigation.Model(3, R.drawable.ic_message, "MESSAGE"))
+        bottomNavigation.add(ABottomNavigation.Model(4,R.drawable.ic_notification,"Notafications"))
+        bottomNavigation.add(ABottomNavigation.Model(5, R.drawable.ic_account, "ACCOUNT"))
+
+
+        bottomNavigation.setCount(4, "5")
+
+
+         bottomNavigation.setOnClickMenuListener {
+                    var id = it.id
+         }
+        bottomNavigation.show(1, true)
 
 ```
