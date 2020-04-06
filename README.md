@@ -1,5 +1,6 @@
 # animated-bottom-navigation-bar
 
+![](https://github.com/mohammadidiab/animated-bottom-navigation-bar/blob/master/GIF-200406_233531.gif)
 ## How to import
 
 Step 1. Add the JitPack repository to your build file
